@@ -1,0 +1,187 @@
+/* @font-face {
+    font-family: "Fasthand";
+    src: url("./Fasthand-Regular.ttf");
+}
+
+p{
+    font-family: Fasthand;
+} */
+
+/* p{
+    background-color: black;
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: large;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 25px;
+    word-spacing: 25px;
+    letter-spacing: 25px;
+    text-align: center;
+    text-shadow: 10px 10px 10px red;
+    box-shadow: 10px 10px 10px blue;
+
+} */
+
+/* p::first-letter{
+    font-size: 100px;
+} */
+
+/* p::first-line{
+    font-size: 100px;
+} */
+
+
+/* input{
+    background-color: blueviolet;
+}
+
+input:hover{
+    background-color: brown;
+} */
+
+/* input:active{
+    background-color: aqua;
+} */
+
+/* input:focus{
+    background-color: antiquewhite;
+}
+
+
+
+ p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ } */
+
+
+ /* a{
+    font-size: xx-large;
+ }
+
+ a:link{
+      background-color: green;
+ }
+
+ a:visited{
+    background-color: wheat;
+ } */
+
+/* #abc1 {
+    background-color: white;
+    width: 50%;
+    height: 70%;
+ } */
+
+ /* ul{
+    background-color: black;
+    height: 25px;
+    text-align: center;
+ } */
+
+
+/* UL > li{
+    display: inline-block;
+    /* background-color: black; */
+    /* color: white;
+    width: 300px;
+} */ */
+/* .abc{
+    background-color: white;
+    width: 50%;
+}  */
+
+.body{
+    background-color: red;
+}
+
+.container{
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding: 10px;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    height: 30px;
+    align-items: center;
+}
+
+.nav-wrapper:first-child{
+    padding-left: 50px;
+}
+
+.nav-wrapper:last-child {
+    padding-right: 50px;
+}
+
+ul > li{
+    display: inline-block;
+    margin: ;
+    background-color: black;
+    color: white;
+    width: px;
+}
+
+.nav{
+    background-color: black;
+    width: 80%;
+    margin: auto;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    margin: 0px;
+}
+
+.paragraph{
+    padding: 10px 10px 10px 10px;
+    /* width: 400px; */
+    /* text-align: center; */
+    font-size: 18px;
+}
+
+.img{
+    /* padding: 10px 10px 10px 10px; */
+    margin: 10px;
+    /* text-align: center; */
+    gap: 10px;
+}
+
+.img{
+    margin: auto;
+    padding: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

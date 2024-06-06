@@ -1,0 +1,223 @@
+/* All */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'lora' , serif;
+    font-weight: 500;
+}
+
+p,
+h6 {
+    font-family: 'Robotto' , sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0 , .2);
+}
+
+.leftside{
+    cursor: pointer;
+}
+
+.res:hover{
+    color: #108a00;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+
+nav ul i {
+    font-size: 0.7em;
+}
+
+.Talent i {
+    font-size: 0.7em;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.searchsection {
+    border: 1px solid rgb(186, 186, 186);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.searchsection input , button{
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+
+.searchsection input{
+    border-right: 1px solid grey;
+}
+
+.rightside button p{
+    font-weight: 450;
+}
+
+.rightside .signup{
+    background-color: #108a00;
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Extralinks */
+
+.extralinks ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0 20px;
+    padding: 20px 23px;
+    cursor: pointer;
+}
+
+/* =========== */
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+/* Work Section */
+
+.worksec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.worksec .contentside {
+    flex: 1.5;
+    padding: 10px;
+}
+
+.worksec .contentside h1{
+    color: #108a00;
+    font-size: 4.4em;
+    font-weight: 500;
+}
+
+.worksec .contentside p{
+    color: #5e6d55;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.worksec .contentside button {
+    background-color: #108a00;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.trustedsec {
+    margin: 80px 0;
+}
+
+.trustedsec p {
+    font-size: 1em !important;
+    font-weight: normal !important;
+}
+
+.trustedsec img {
+    margin: 10px 10px;
+}
+
+.imgside {
+    text-align: center;
+    flex: 1.1;
+}
+
+/* Talent Section */
+
+.talentsec{
+    margin: 50px 10px;
+}
+
+.talentsec h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.talentsec p {
+    margin: 10px 0;
+}
+
+.talentsec p a {
+    color: #108a00;
+}
+
+.cardsec {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.cards {
+    background-color: rgb(242, 247 ,242);
+    padding: 0 20px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.cards:hover{
+    background-color: #e4ebe4;
+}
+
+.cards .heading {
+    font-size: 1.5em;
+}
+
+.cardtxt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.cardtxt p {
+    color: grey;
+}
+
+.cardtxt i {
+    color: #108a00;
+}

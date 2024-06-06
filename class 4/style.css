@@ -1,0 +1,42 @@
+/* Calculator */
+
+.main{
+    background-color: skyblue;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 130px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: larger;
+    border: 1px groove black;
+    border-radius: 10px;
+}
+
+.colspan{
+    padding-left: 300px;
+}
+
+td{
+    border: 1px groove black;
+    border-collapse: collapse;
+}
+
+.table{
+    border: 1px solid black;
+    box-shadow: inset;
+    border-collapse: collapse;
+    border-radius: 100px;
+}
+
+.table{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    padding: auto;
+}
+
+.rowspan{
+    background-color: orange;
+    opacity: 0.9;
+}
